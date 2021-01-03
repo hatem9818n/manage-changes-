@@ -1,0 +1,14 @@
+Start
+Float   offer, price      Discount 
+String   user_ type  
+For all client applies the transaction 
+Read offer, price,       
+IF (price >=40) THEN
+Discount= 20* sales, 
+Else 
+    Discount= 2* sales 
+Print Discount 
+End IF 
+END For
+Print “Over”
+

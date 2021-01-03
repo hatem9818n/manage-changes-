@@ -2,12 +2,16 @@ Start
 Float   offer, price      Discount 
 String   user_ type  
 For all client applies the transaction 
-Read offer, price,       
+Read offer, price, user_type        
 IF (price >=40) THEN
 Discount= 20* sales, 
 Else 
     Discount= 2* sales 
 Print Discount 
+End IF
+IF user_ type= “old customer” THEN
+Discount= 25;
+   Print Discount 
 End IF 
 END For
 Print “Over”
